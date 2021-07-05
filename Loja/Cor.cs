@@ -4,6 +4,7 @@ namespace Loja
     {
         Vermelho,
         Verde,
-        Azul
+        Azul,
+        Laranja
     }
 }

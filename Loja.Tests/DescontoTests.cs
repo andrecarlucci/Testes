@@ -43,5 +43,18 @@ namespace Loja.Tests
             //Verificar
             Assert.Equal(30, valor);
         }
+
+        [Fact]
+        public void Quando_o_produto_eh_laranja_nao_ha_desconto()
+        {
+            //Preparar
+            var desconto = new Desconto();
+                    
+            //Executar
+            var valor = desconto.Calcule(Cor.Laranja);
+                    
+            //Verificar
+            Assert.Equal(0, valor);
+        }
     }
 }

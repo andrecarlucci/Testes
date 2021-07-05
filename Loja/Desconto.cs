@@ -8,7 +8,8 @@ namespace Loja
         {
             Cor.Vermelho => 10,
             Cor.Verde => 20,
-            _ => 30
+            Cor.Azul => 30,
+            _ => 0
         };
     }
 }
